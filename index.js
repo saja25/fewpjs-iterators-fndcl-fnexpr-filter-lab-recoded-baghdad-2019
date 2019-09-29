@@ -4,3 +4,4 @@ function findMatching(arr,name){
 function fuzzyMatch(arr,name){
   return arr.filter(e=>e.charAt(0)===name.charAt(0))
 }
+function 
