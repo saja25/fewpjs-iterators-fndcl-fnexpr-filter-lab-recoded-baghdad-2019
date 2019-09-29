@@ -5,5 +5,5 @@ function fuzzyMatch(arr,name){
   return arr.filter(e=>e.charAt(0)===name.charAt(0))
 }
 function matchName(arr,str){
-  return arr.filter()
+  return arr.filter(e=>e["name"]===str)
 }
